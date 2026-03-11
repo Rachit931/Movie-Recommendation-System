@@ -60,7 +60,11 @@ def build_ratings_dataset(raw_data_path, output_file):
 def load_and_prepare_dataframe(data_file):
     print("Creating dataframe from data.csv......")
 
-    df = pd.read_csv(data_file, sep=",", names=["movie", "user", "rating", "date"])
+    df = pd.read_csv(
+        data_file,
+        sep=",",
+        names=["movie", "user", "rating", "date"],
+    )
     df.date = pd.to_datetime(df.date)
     print("Done.\n")
 
@@ -72,7 +76,8 @@ def load_and_prepare_dataframe(data_file):
 
 if __name__ == "__main__":
     build_ratings_dataset(
-        raw_data_path="data/raw", output_file="data/processed/data.csv"
+        raw_data_path="data/raw",
+        output_file="data/processed/data.csv",
     )
 
 
