@@ -1,10 +1,10 @@
-numpy
-pandas
-scipy
-scikit-learn
+numpy 
+pandas 
+scipy 
+scikit-learn 
 fastapi
-uvicorn
+uvicorn 
 streamlit
 requests
-matplotlib
+matplotlib 
 seaborn
