@@ -1,6 +1,6 @@
 import os
+
 import pandas as pd
-from datetime import datetime
 
 
 def build_ratings_dataset(raw_data_path, output_file):
