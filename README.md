@@ -8,23 +8,23 @@ The project implements a full machine learning pipeline including data preproces
 
 ## Features
 
-• Movie recommendation engine  
-• Collaborative filtering model  
-• FastAPI inference API  
-• Streamlit web interface  
-• Movie posters via TMDB API  
+• Movie recommendation engine
+• Collaborative filtering model
+• FastAPI inference API
+• Streamlit web interface
+• Movie posters via TMDB API
 
 ---
 
 ## Tech Stack
 
-Python  
-NumPy  
-Pandas  
-SciPy  
-Scikit-Learn  
-FastAPI  
-Streamlit  
+Python
+NumPy
+Pandas
+SciPy
+Scikit-Learn
+FastAPI
+Streamlit
 
 ---
 
